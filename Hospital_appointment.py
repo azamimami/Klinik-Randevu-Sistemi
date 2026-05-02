@@ -80,7 +80,7 @@ class Randevu:
         self.doktor = doktor
         self.olusturma_zamani = datetime.now()
 
-    # ✔ UPDATED DISPLAY (created time added)
+    # UPDATED DISPLAY (created time added)
     def __str__(self):
         return (
             f"[{self.randevu_id}] "
